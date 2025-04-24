@@ -14,8 +14,6 @@ use Inline C => <<'END_OF_C_CODE';
 	 CloseWindow();
     }
 
-
-
     bool window_should_close(){
     	return WindowShouldClose();                              
     }
